@@ -7,10 +7,11 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
+        <!-- <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}"> -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('/css/css.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('/css/app.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('/css/css.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -657,15 +658,18 @@
 <script src="js/mdb.min.js"></script>
 
 <script src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="{{secure_asset(js/jquery.min.js)}}"></script>
+<script type="text/javascript" src="{{secure_asset(js/popper.min.js)}}"></script>
+<script type="text/javascript" src="{{secure_asset(js/bootstrap.min.js)}}"></script>
+<script type="text/javascript" src="{{secure_asset(js/mdb.min.js)}}"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>  
 <script src = "http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>  
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+<link href="{{ secure_asset('/css/css.css') }}" rel="stylesheet">
 
 <script>
 
