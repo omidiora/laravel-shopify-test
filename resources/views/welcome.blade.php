@@ -658,10 +658,10 @@
 <script src="js/mdb.min.js"></script>
 
 <script src="js/popper.min.js"></script>
-<script type="text/javascript" src="{{secure_asset(js/jquery.min.js)}}"></script>
-<script type="text/javascript" src="{{secure_asset(js/popper.min.js)}}"></script>
-<script type="text/javascript" src="{{secure_asset(js/bootstrap.min.js)}}"></script>
-<script type="text/javascript" src="{{secure_asset(js/mdb.min.js)}}"></script>
+<script type="text/javascript" src="{{secure_asset('js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('js/popper.min.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('js/mdb.min.js')}}"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>  
 <script src = "http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer ></script>
@@ -669,7 +669,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
 
-<link href="{{ secure_asset('/css/css.css') }}" rel="stylesheet">
 
 <script>
 
